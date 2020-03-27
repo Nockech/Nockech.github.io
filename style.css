@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6{
     position        : absolute;
 }
 .hhh{
-    height: 100px;
+    height: 500px;
     width           : 550px;
     position	    : absolute;
     top		        : 30%;
@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6{
     margin          : auto;
 }
 #hhhcontent{
+    height: 500px;
     border-radius   : 3px;
     margin-left     : auto;
     font-size       : 70px;
