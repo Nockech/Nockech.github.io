@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6{
 }
 header{
     background-color: #202225;
-    height: 350px;
+    height: 450px;
     width: 100%;
 }
 .header_content{
@@ -21,7 +21,7 @@ header{
 .label_frame{
     width: 250px;
     position: absolute;
-    top: 18%;
+    top: 24%;
     left: 0%;
     right: 0%;
     margin: auto;
