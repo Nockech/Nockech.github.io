@@ -77,12 +77,18 @@ header{
     background: #18191C;
     height: 350px;
     width: 325px;
+    box-shadow: 0 0 3px #040405;
 }
 .title_text{
+    font-size: 17px;
     line-height: 50px;
     text-align: center;
     font-family: Arial, sans-serif;
     color: #FFFFFF;
+}
+.box_image{
+    width: 100%;
+    height: 80%;
 }
 .small_text{
     font-family: Arial, sans-serif;
