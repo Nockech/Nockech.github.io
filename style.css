@@ -5,23 +5,17 @@
 h1, h2, h3, h4, h5, h6{
     margin          : 0;
 }
+
 header{
-    background-color: #202225;
-    height: 450px;
+    background-color: #221922;
+    height: 90px;
     width: 100%;
 }
-.header_content{
-    width: 100%;
-}
-.self_body{
-    background-color: #2C2F33;
-    height: 700px;
-    width: 100%;
-}
+
 .label_frame{
     width: 250px;
     position: absolute;
-    top: 24%;
+    top: 40%;
     left: 0%;
     right: 0%;
     margin: auto;
@@ -34,35 +28,55 @@ header{
     color: #FFFFFF;
     font-size: 24px;
     font-family: Arial, sans-serif;
-    line-height: 55px;
+    line-height: 60px;
     border-radius: 5px;
     margin: auto;
     text-align: center;
     box-shadow: 0 0 2px #667BC4;
 }
-.contents{
-    display: flex;
-    justify-content: space-between;
+
+.first_sect{
+    background-color: #EAF4FF;
+    height: 500px;
+    width: 100%;
+}
+.first_sect_content{
+    width: 100%;
+}
+
+.second_sect_label{
+    width: 100%;
     position: relative;
-    top: 23.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+    text-align: center;
+    top: 5%;
+}
+.second_sect{
+    background-color: #2C2F33;
+    height: 1400px;
+    width: 100%;
+}
+.grid_layout{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    grid-auto-rows: 50px;
+    grid-auto-columns: 50px;
+    position: relative;
     margin: auto;
-    width: 75%;
+    top: 7%;
+    width: 85%;
+    height: 50px;
+}
+.grid_box{
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid #040405;
+    background: #18191C;
     height: 350px;
-}
-.previous_box{
-    margin-right: 35px;
-    border-radius: 5px;
-    border: 1px solid #040405;
-    background: #18191C;
-    height: 100%;
-    width: 50%;
-}
-.last_box{
-    border-radius: 5px;
-    border: 1px solid #040405;
-    background: #18191C;
-    height: 100%;
-    width: 50%;
+    width: 325px;
 }
 .title_text{
     line-height: 50px;
