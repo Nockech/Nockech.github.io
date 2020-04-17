@@ -5,13 +5,30 @@
 h1, h2, h3, h4, h5, h6{
     margin          : 0;
 }
+::-webkit-scrollbar{ width: 17px;}
+
+::-webkit-scrollbar-track-piece {background: #41454B;}
+::-webkit-scrollbar-button {
+    height: 17px;
+    background: #36393E;
+    -webkit-box-shadow: 0 0 6px #18191C;}
+::-webkit-scrollbar-button:active{background: #2A2C31;}
+::-webkit-scrollbar-thumb {
+    background: #50555C; 
+    -webkit-box-shadow: 0 0 3px #18191C;}
+::-webkit-scrollbar-thumb:hover {background: #5B6269; }
+::-webkit-scrollbar-thumb:active {background: #676D76; }
 
 header{
     background-color: #221922;
     height: 90px;
     width: 100%;
 }
-
+span{
+    border-radius: 2px;
+    background: #34363C;
+    color: #8897A1;
+}
 .label_frame{
     width: 250px;
     position: absolute;
@@ -71,28 +88,45 @@ header{
     height: 50px;
 }
 .grid_box{
+    transition: all 0.22s ease;
     margin: auto;
     border-radius: 5px;
     border: 1px solid #040405;
     background: #18191C;
-    height: 350px;
+    height: 365px;
     width: 325px;
     box-shadow: 0 0 3px #040405;
 }
+.grid_box:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 0 #040405;
+}
 .title_text{
     font-size: 17px;
-    line-height: 50px;
+    line-height: 55px;
     text-align: center;
     font-family: Arial, sans-serif;
     color: #FFFFFF;
 }
 .box_image{
-    width: 100%;
-    height: 80%;
+    top: 5px;
+    position: relative;
+    left: 12px;
+    margin: auto;
+    width: 300px;
+    margin-bottom: 10px;
 }
 .small_text{
+    text-align: center;
     font-family: Arial, sans-serif;
     color: #99AAB5;
     line-height: 25px;
     padding: 5px;
+}
+a{
+    color: #209BDD;
+    line-height: 50px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
