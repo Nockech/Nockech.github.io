@@ -5,8 +5,8 @@
 h1, h2, h3, h4, h5, h6{
     margin          : 0;
 }
-::-webkit-scrollbar{ width: 17px;}
 
+::-webkit-scrollbar{ width: 17px;}
 ::-webkit-scrollbar-track-piece {background: #41454B;}
 ::-webkit-scrollbar-button {
     height: 17px;
@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     background-color: #221922;
-    height: 90px;
+    height: 60px;
     width: 100%;
 }
 span{
@@ -110,11 +110,10 @@ span{
 }
 .box_image{
     top: 5px;
-    position: relative;
-    left: 12px;
-    margin: auto;
-    width: 300px;
     margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .small_text{
     text-align: center;
